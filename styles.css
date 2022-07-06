@@ -1,0 +1,78 @@
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  text-align: center;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  text-align: center;
+}
+
+:-ms-input-placeholder {
+  text-align: center;
+}
+
+body {
+  background-color: bisque;
+}
+
+.validation-form h1 {
+  color: saddlebrown;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 800;
+  letter-spacing: 2px;
+  border-bottom: 2px solid saddlebrown;
+  padding-bottom: 10px;
+}
+
+.validation-form {
+  background-color: whitesmoke;
+  border: 2px solid grey;
+  text-align: center;
+  padding: 20px;
+  width: 40%;
+  margin: auto;
+}
+
+.validation-form input {
+  margin-bottom: 15px;
+  margin-top: 5px;
+  /* margin-top: 10px; */
+  border: 1px solid black;
+  border-radius: 2px;
+  width: 40%;
+  height: 25px;
+}
+
+.validation-form label {
+  margin-bottom: 20px;
+  font-size: larger;
+  font-weight: 600;
+  color: saddlebrown;
+}
+
+.form-errors {
+  color: red;
+  font-size: large;
+  font-weight: 700;
+}
+
+.validation-form #submit-btn {
+  width: 30%;
+  background-color: bisque;
+  border: 2px solid saddlebrown;
+  height: 40px;
+  border-radius: 5px;
+  font-size: larger;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.validation-form .submit-btn:hover {
+  cursor: pointer;
+  color: saddlebrown;
+}
