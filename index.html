@@ -17,7 +17,7 @@
           placeholder="first name"
           name="firstName"
           id="firstName"
-          onblur="firstNameValidator()"
+          onblur="validateForm()"
         />
         <br />
         <label for="lastName">Last Name</label> <br />
@@ -26,7 +26,7 @@
           placeholder="last name"
           name="lastName"
           id="lastName"
-          onblur="lastNameValidator()"
+          onblur="validateForm()"
         />
         <br />
         <label for="age">Age</label> <br />
@@ -35,7 +35,7 @@
           placeholder="Age"
           name="age"
           id="age"
-          onblur="ageValidator()"
+          onblur="validateForm()"
         />
         <br />
 
@@ -44,9 +44,8 @@
           type="Number"
           placeholder="Phone Number"
           name="phone"
-          disabled
           id="phone"
-          onblur="phoneValidator()"
+          onblur="validateForm()"
         />
         <br />
 
@@ -56,7 +55,7 @@
           placeholder="Email"
           name="email"
           id="email"
-          onblur="emailValidator()"
+          onblur="validateForm()"
         />
         <br />
 
@@ -66,7 +65,7 @@
           placeholder="password"
           name="password"
           id="password"
-          onblur="passwordValidator()"
+          onblur="validateForm()"
         />
         <br />
         <label for="confirmPassword">Confirm Password</label><br />
@@ -75,14 +74,21 @@
           placeholder="confirm password"
           name="confirmPassword"
           id="confirmPassword"
-          onblur="passwordValidator()"
+          onblur="validateForm()"
         />
         <br />
         <button disabled id="submit-btn" type="submit">Submit</button>
         <br />
       </form>
       <div class="form-errors">
-        <p></p>
+        <ul>
+          <li class="first-name"></li>
+          <li class="last-name"></li>
+          <li class="age"></li>
+          <li class="phone"></li>
+          <li class="email"></li>
+          <li class="password"></li>
+        </ul>
       </div>
     </div>
   </body>
